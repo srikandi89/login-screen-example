@@ -38,4 +38,12 @@ class LoginScreen(context: Context?, attrs: AttributeSet?) : ConstraintLayout(co
 
         typedArray?.recycle()
     }
+
+    fun getUsernameTextView() = loginscreen_textview_username
+
+    fun getUsernameEditText() = loginscreen_edittext_username
+
+    fun getPasswordTextView() = loginscreen_textview_password
+
+    fun getPasswordEditText() = loginscreen_edittext_password
 }
