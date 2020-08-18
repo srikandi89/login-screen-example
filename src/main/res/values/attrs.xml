@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginScreen">
+        <attr name="loginscreen_textview_username_label" format="string" />
+        <attr name="loginscreen_edittext_username_hint" format="string" />
+        <attr name="loginscreen_textview_password_label" format="string" />
+    </declare-styleable>
+</resources>
